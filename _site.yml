@@ -1,0 +1,21 @@
+name: try-workflow1
+output_dir: ../docs
+navbar:
+  title: try-workflow1
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: License
+    href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/piechnik-d/try-workflow1
+output:
+  workflowr::wflow_html:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+    highlight: textmate
